@@ -1,0 +1,35 @@
+:root{
+    --corPreto: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--corPreto);
+    height: 100vh;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}

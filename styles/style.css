@@ -12,8 +12,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--corPreto);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .linha {
@@ -28,8 +27,4 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
-
-h1 {
-    color: white;
 }
